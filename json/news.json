@@ -1,0 +1,63 @@
+{
+  "left": [
+    {
+      "id": 1,
+      "title": "享受直播间优惠",
+      "img": "img/img7/1.jpg",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "满300减50",
+      "img": "img/img7/2.jpg",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "品牌优惠",
+      "img": "img/img7/3.jpg",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "假期折扣",
+      "img": "img/img7/4.jpg",
+      "link": "#"
+    }
+  ],
+  "middle": [
+    {
+      "id": 1,
+      "img": "img/img7/5.jpg",
+      "title": "爱肤者遇上你的美",
+      "content": "享受直播间优惠",
+      "link": "#"
+    }
+  ],
+  "right": [
+    {
+      "id": 1,
+      "title": "享受直播间优惠",
+      "img": "img/img7/6.jpg",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "满300减50",
+      "img": "img/img7/7.jpg",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "品牌优惠",
+      "img": "img/img7/8.jpg",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "假期折扣",
+      "img": "img/img7/9.jpg",
+      "link": "#"
+    }
+  ]
+}

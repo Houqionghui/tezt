@@ -1,0 +1,85 @@
+[
+  {"title":"司法拍卖",
+    "id": 1,
+    "img": "img/img6/tesetuijian/pic1.jpg",
+    "desc": "法院好货 公开抢拍",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"京东金融",
+    "id": 2,
+    "img": "img/img6/tesetuijian/pic2.jpg",
+    "desc": "会理财 懂生活",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"京东扶贫",
+    "id": 3,
+    "img": "img/img6/tesetuijian/pic3.jpg",
+    "desc": "买特产  助扶贫",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"企业采购",
+    "id": 4,
+    "img": "img/img6/tesetuijian/pic4.jpg",
+    "desc": "Apple产品企业特价",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"陪伴宝宝",
+    "id": 5,
+    "img": "img/img6/tesetuijian/pic5.jpg",
+    "desc": "0元试大牌",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"健康服务",
+    "id": 6,
+    "img": "img/img6/tesetuijian/pic6.jpg",
+    "desc": "体验惠健康",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"京东旅行",
+    "id": 7,
+    "img": "img/img6/tesetuijian/pic7.jpg",
+    "desc": "美国跟团游买一送一",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"品牌特卖",
+    "id": 8,
+    "img": "img/img6/tesetuijian/pic8.jpg",
+    "desc": "品牌限时特卖",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"全球尖货",
+    "id": 9,
+    "img": "img/img6/tesetuijian/pic9.jpg",
+    "desc": "全球自营好货",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"设计师推荐",
+    "id": 10,
+    "img": "img/img6/tesetuijian/pic10.jpg",
+    "desc": "全球设计精选",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"环球时尚",
+    "id": 11,
+    "img": "img/img6/tesetuijian/pic11.jpg",
+    "desc": "环球名品，奢华精选",
+    "link": "http://www.jingdong.com/"
+  },
+  {
+    "title":"白条商城",
+    "id": 12,
+    "img": "img/img6/tesetuijian/pic12.jpg",
+    "desc": "最高12期免息",
+    "link": "http://www.jingdong.com/"
+  }
+]

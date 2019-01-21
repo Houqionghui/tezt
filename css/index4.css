@@ -1,0 +1,508 @@
+.main {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/*shoping部分*/
+
+.corechn1 .section {
+    position: relative;
+    float: left;
+    width: 390px;
+    height: 450px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    background-color: #fff;
+}
+
+.corechn1 .section .bannerBox1 {
+    position: relative;
+    height: 372px;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+
+.corechn1 .section1 .bannerBox1 .bannerBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.corechn1 .section  .bannerBox {
+    position: relative;
+    height: 372px;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.corechn1 .section .bannerBox .wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+
+
+.corechn1 .section3 {
+    margin-right: 0;
+}
+
+/*section 头部*/
+
+.corechn1 .section .corechn1_head {
+    height: 50px;
+    padding: 0 17px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.corechn1 .section .corechn1_head h3 {
+    float: left;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.corechn1 .section .corechn1_head .box_hd_arrow {
+    position: relative;
+    top: 11px;
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url('../img/1.png');
+}
+
+.corechn1 .section .corechn1_head span {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+
+
+.corechn1 .section1  .corechn1_nav li {
+    float: left;
+}
+
+.corechn1 .section1 .corechn1_nav a {
+    display: block;
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+    text-align: center;
+}
+
+.corechn1 .section1  .corechn1_nav a.active {
+    color: red;
+}
+
+/*shoping 轮播图选项库块*/
+
+.corechn1 .section1 .bannerBox {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 355px;
+    width: 700px;
+}
+
+
+
+.corechn1 .section1  .corechn1_nav{
+    width: 390px;
+}
+
+.corechn1 .section .bannerBox.active {
+    display: block;
+}
+
+.corechn1 .section1 .bannerBox .wrapper li {
+    float: left;
+    box-sizing: border-box;
+    width: 350px;
+    height: 355px; /*267px*/
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.corechn1 .section1 .bannerBox .wrapper li .rank_desc{
+    width: 100%;
+    height: 107px;
+    /*border: 1px solid red;*/
+}
+
+.corechn1 .section1 .bannerBox .wrapper li span {
+    position: relative;
+    top: -22px;
+    left: 10px;
+    color: #666;
+    font-size: 32px;
+    font-family: 'impact';
+}
+
+.corechn1 .section1 .bannerBox .wrapper li:nth-of-type(1) div:nth-of-type(1) span {
+    color: #e74240;
+}
+
+.corechn1 .section1 .bannerBox .wrapper li:nth-of-type(1) div:nth-of-type(2) span {
+    color: #ed713d;
+}
+
+.corechn1 .section1 .bannerBox .wrapper li:nth-of-type(1) div:nth-of-type(3) span {
+    color: #feb185;
+}
+
+.corechn1 .section1 .bannerBox .wrapper li img {
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.corechn1 .section1 .bannerBox .wrapper li p {
+    float: right;
+    width: 225px;
+    height: 32px;
+    padding-top: 44px;
+    margin-left: 15px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #333;
+    overflow: hidden;
+}
+
+/*焦点处理*/
+
+.corechn1 .section .bannerBox .focus {
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    -webkit-transform: translate(-50%);
+    height: 32px;
+    width: 326px;
+    padding: 0 16px;
+}
+
+.corechn1 .section1 .bannerBox .focus{
+    bottom: -8px;
+}
+
+.corechn1 .section2 .bannerBox .focus,.corechn1 .section3 .bannerBox .focus{
+    bottom: 7px;
+}
+
+.corechn1 .section1  .focus{
+    border-top: 1px solid #f5f5f5;
+}
+
+.corechn1 .section .bannerBox .focus .focusBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -16px;
+    width: 42px;
+    height: 16px;
+}
+
+.corechn1 .section2 .bannerBox .focus div.focusBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -27px;
+    width: 58px;
+    height: 16px;
+}
+
+.corechn1 .section .bannerBox .focus .focusBox i {
+    position: relative;
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    border-radius: 50%;
+    /*background: #fdd9dd;*/
+    transition: background .2s ease;
+}
+
+.corechn1 .section .bannerBox .focus .focusBox i.active {
+    display: block;
+    background: #fdd9dd;
+}
+
+.corechn1 .section .bannerBox .focus .focusBox i.active:after {
+    border: 2px solid transparent; /*外层是边框内层是背景*/
+    background: #eb3436;
+}
+
+.corechn1 .section .bannerBox .focus .focusBox i:after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #b9beba;
+}
+
+
+/*会买专辑*/
+
+.corechn1 .section2 .bannerBox .wrapper{
+    width: 1050px;
+}
+
+
+.corechn1 .section2 .bannerBox .wrapper li {
+    float: left;
+    width: 350px;
+    padding: 8px 0;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li .titleImg {
+    margin: 0 auto 25px;
+    width: 350px;
+    height: 128px;
+    opacity: 1;
+    transition: opacity .2s;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li .titleImg:hover{
+    opacity: .8;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li a {
+    display: block;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li .titleImg img {
+    /*.corechn1 .section2 .bannerBox .wrapper li .title a img 怎么都出不来,是因为Js 获取的li没有类名，我只是在结构上加了
+    一定要保持，jS创建的元素和HTMl中统一*/
+    width: 100%;
+    height: 100%;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li .contentImg a {
+    float: left;
+    width: 105px;
+    height: 105px;
+    margin-right: 10px;
+    opacity: 1;
+    transition: opacity .2s;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li .contentImg a:hover{
+    opacity: .8;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li .contentImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li h3 {
+    width: 280px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.corechn1 .section2 .bannerBox .wrapper li p {
+    font-size: 14px;
+    line-height: 18px;
+    height: 36px;
+    padding: 0 10px;
+    color: #666;
+    overflow: hidden;
+    font-family: 'Microsoft Yahei', sans-serif;
+}
+
+
+.corechn1 .section2 .arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    box-sizing: border-box;
+    width: 20px;
+    height: 40px;
+    padding-top:6px;
+    background-color: rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
+.corechn1 .section2  .arrow span{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.corechn1 .section2  .arrowLeft span{
+    margin-left: 2px;
+}
+
+.corechn1 .section2   .arrowLeft{
+    left: 0;
+}
+
+.corechn1 .section2   .arrowRight{
+    right: 0;
+}
+/*第三部分*/
+
+.corechn1 .section2  .bannerBox,.corechn1 .section3  .bannerBox {
+    position: relative;
+    height: 398px;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.corechn1 .section3 .bannerBox .wrapper{
+    width: 700px;
+}
+
+
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item {
+    position: relative;
+    background: #f6f6f6;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item:before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 54px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item:after{
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: 54px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item:nth-of-type(2) {
+    background: #eeefed;
+    border-top: 1px solid  #f6f6f6;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item a {
+    display: block;
+    width: 100%;
+    height: 118px;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item .image {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_item i {
+    color: #e33333;
+    font-family: arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer
+
+}
+
+.corechn1 .section3 .bannerBox .wrapper span {
+    font-size: 34px;
+    font-family: 'impact';
+    color: #e33333;
+}
+
+.corechn1 .section3 .wrapper li {
+    float: left;
+    width: 350px;
+    height: 354px;
+    /*overflow: hidden;*/
+}
+
+.corechn1 .section3 .bannerBox .wrapper .limit {
+    color: #b1b3b0;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon-middle{
+    float: left;
+    width: 168px;
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_desc {
+    color: #767b77;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.corechn1 .section3 .bannerBox .wrapper .coupon_more_inner {
+    display: inline-block;
+    width: 1px;
+    margin-top: 10px;
+    margin-left: 45px;
+    color: #333;
+    line-height: 13px;
+
+}
+
+
+
+
+
+
+
+

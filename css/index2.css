@@ -1,0 +1,771 @@
+.fs {
+    position: relative;
+    height: 480px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.fs .inner{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index:1;
+}
+
+.fs .act{
+    position: absolute;
+    height: 470px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.fs .act a{
+    display: block;
+    background: url(//img30.360buyimg.com/da/jfs/t20284/286/243413779/73618/a87ff474/5b05a051N0fda17e3.png) no-repeat 50% 0;
+    height: 470px;
+    margin-top: 10px;
+}
+
+.fs .left-nav{
+    float:left;
+    margin-right: 10px;
+}
+
+.fs .left-nav ul{
+    position: relative;
+    width: 190px;
+    padding: 10px 0;
+    height: 460px;
+    background-color: #fff;
+    color: #636363;
+}
+
+.fs .left-nav ul .navA{
+    padding-left: 14px;
+    height: 27px;
+    line-height: 27px;
+    transition: background-color .2s ease;
+}
+
+.fs .left-nav ul li{
+    background: #fff;
+}
+
+.fs .left-nav ul li .navA a{
+    font-size: 14px;
+    color: #626262;
+}
+
+.fs .left-nav ul li .navA:hover a{
+    color: #e33333;
+}
+
+.fs .left-nav ul li .navA:hover{
+    background-color: #d9d9d9;
+}
+
+.fs .left-nav ul li .menu {
+    position: absolute;
+    top: 0;
+    left: 192px;
+    display: none;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 480px;
+    padding: 20px 0  0 10px;
+    overflow: hidden;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    background-color: #fff;
+}
+
+.fs .left-nav ul li:hover .menu{
+    display: block;
+    z-index: 1000;
+
+}
+
+/*详情盒子*/
+/*详情盒子左边*/
+.fs .left-nav ul li .menu-left {
+    float: left;
+    box-sizing: border-box;
+    width: 790px;
+    height: 396px;
+}
+
+.fs .left-nav ul li .menu-left .menu-header{
+    width: 600px;
+    height: 24px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.fs .left-nav ul li .menu-left .menu-header a{
+    float:  left;  /*为了清除间隙？*/
+    margin-right: 10px;
+    padding: 0 10px;
+    height: 24px;
+    background-color: #333;
+    line-height: 24px;
+    color: #fff;
+}
+
+.fs .left-nav ul li .menu-left .menu-header a:hover{
+    background-color: #5c5251;
+}
+
+.fs .left-nav ul li .menu-left .menu-header a i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.fs .left-nav ul li .menu-left dl{
+    position: relative;
+    /*padding: 10px 20px;*/
+    padding-left:80px;
+}
+
+.fs .left-nav ul li .menu-left dt{
+    position: absolute;
+    left: 0;
+    top:6px;
+    float: left;
+    width: 70px;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.fs .left-nav ul li .menu-left dt a{
+    color: #666;
+    font-weight: 700;
+}
+
+.fs .left-nav ul li .menu-left dt a:hover{
+    color: #c81623;
+}
+
+.fs .left-nav ul li .menu-left dt i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.fs .left-nav ul li .menu-left dd {
+    padding: 5px 0;
+}
+
+.fs .left-nav ul li .menu-left dd a{
+    float: left;
+    margin:3px 0;
+    padding: 0 10px;
+    height: 16px;
+    border-left:1px solid #e0e0e0;
+    line-height: 16px;
+    color: #666;
+    white-space: nowrap;
+}
+
+.fs .left-nav ul li .menu-left dd a:hover{
+    color: #c81623;
+}
+
+/*详情盒子右边*/
+.fs .left-nav ul li .menu-right{
+    float: left;
+    width: 198px;
+    font-size: 0;
+}
+
+.fs .left-nav ul li .menu-right .imgTop{
+    width: 168px;
+    margin: 0  auto;
+}
+
+.fs .left-nav ul li .menu-right .imgTop a img{
+    width: 83px;
+    height: 35px;
+}
+
+.fs .left-nav ul li .menu-right .imgBottom{
+    margin: 10px auto 0;
+    width: 168px;
+}
+
+.fs .left-nav ul li .menu-right .imgBottom img{
+    width: 168px;
+    height: 134px;
+}
+
+/*轮播图部分*/
+.fs .bannerBox{
+    padding-top:10px;
+}
+
+.fs .bannerBox .container {
+    position: relative;
+    float:left;
+    width: 590px;
+    height: 470px;
+    overflow:hidden;
+}
+
+.fs  .bannerBox .container li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470px;
+    width: 590px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.fs .bannerBox .container li:nth-of-type(1){
+    z-index: 1;
+    opacity: 1;
+}
+
+
+.fs .bannerBox .container li a {
+    display: block;
+}
+
+.fs .bannerBox .container li img{
+    width: 100%;
+    height: 100%;
+}
+
+.fs .bannerBox .focus{
+    position: absolute;
+    bottom: 20px;
+    left: 46px;
+    width: 152px;
+    height: 18px;
+    z-index:2;
+}
+
+.fs .bannerBox .focus  i {
+    position: relative;
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 1px;
+    border-radius: 50%;
+    /*background: #fdd9dd;*/
+    transition: background .2s ease;
+}
+
+.fs .bannerBox .focus  i.active {
+    display: block;
+    /*background: #fdd9dd;*/
+    background: hsla(0,0%,100%,.2);
+}
+
+.fs .bannerBox .focus  i.active:after {
+    border: 2px solid transparent; /*外层是边框内层是背景*/
+    background: #fff;
+
+}
+
+.fs .bannerBox .focus  i:after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #b9beba;
+}
+
+.fs .bannerBox .container .arrow{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    background-color: rgba(0,0,0,.2);
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #e0e0e0;
+    z-index: 2;
+}
+
+.fs .bannerBox .container .arrow i{
+    text-align: center;
+}
+
+.fs .bannerBox .container .arrow.arrow-left{
+    left: 0;
+    text-align: right;
+}
+
+.fs .bannerBox .container .arrow.arrow-right{
+    right: 0;
+    text-align:left;
+}
+
+/*右边部分*/
+
+.fs .hotImgBox{
+    float: left;
+    width: 190px;
+    height: 480px;
+    margin:0 10px;
+}
+
+.fs .hotImgBox .hotImg{
+    margin-top:10px;
+    width: 190px;
+    height: 150px;
+}
+
+.fs .hotImgBox .hotImg:hover{
+    opacity: .8;
+}
+
+.fs .hotImgBox .hotImg:nth-of-type(1){
+    margin-top: 0;
+}
+
+.fs .hotImgBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.fs .newsBox {
+    float: left;
+    width: 190px;
+    height: 470px;
+    background-color: #fff;
+}
+
+.fs .newsBox .user{
+    position: relative;
+    width: 190px;
+    height: 78px;
+    padding-top: 62px;
+}
+
+.fs .newsBox .user .user-img{
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -34px;
+    width: 65px;
+    height: 65px;
+}
+
+.fs .newsBox .user .user-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #e3e1df;
+    box-shadow: 1px 0 10px #e3e1df;
+}
+
+.fs .newsBox .user .user-show {
+    padding: 0 10px;
+}
+
+.fs .newsBox .user .user-show p{
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    color: #888;
+}
+
+.fs .newsBox .user .user-show p a{
+    padding: 0 2px;
+    color: #888;
+}
+
+.fs .newsBox .user .user-show p a:hover{
+    color: #e43f3b;
+}
+
+.fs .newsBox .user .user-profit {
+    margin-top: 10px;
+    height: 25px;
+    text-align: center;
+    font-size: 0;
+}
+
+.fs .newsBox .user .user-profit a{
+    display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 13px;
+    box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+    transition: background .3s ease,color .3s ease;
+}
+
+.fs .newsBox .user .user-profit a:nth-of-type(1){
+    color: #e43f3b;
+}
+
+.fs .newsBox .user .user-profit a:nth-of-type(2){
+    background: #363634;
+    color: #e5d790;
+}
+
+.fs .newsBox .user .user-profit a:hover{
+    background-color: #e01222;
+    color: #fff;
+}
+
+.fs .newsBox .user .news{
+    overflow: hidden;
+    height: 130px;
+}
+
+.fs .newsBox  .news .news-head{
+    position: relative;
+    padding-top: 8px;
+    height: 18px;
+}
+
+.fs .newsBox  .news .news-head div{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    margin-left: 13px;
+    width: 27px;
+    height: 2px;
+    background: #db192b;
+    transform: translateX(0);
+    transition: transform .3s ease;
+}
+
+.fs .newsBox  .news .news-head .news-item{
+    font-size: 12px;
+    color: #333;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid #dfe0e1;
+}
+
+.fs .newsBox  .news .news-head .news-item2{
+    border-right: none;
+}
+
+/*.fs .newsBox  .news .news-head .news-item2:hover + .news-more + .news-tab{*/
+    /*transform: translateX(58px);*/
+/*}*/
+
+.fs .newsBox  .news .news-head .news-more{
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    font-size: 12px;
+    color: #333;
+
+}
+
+.fs .newsBox  .news .news-head .news-more:hover{
+    color: #e43f3b;
+}
+
+.fs .newsBox  .news .news-con{
+    display: none;
+    width: 160px;
+    height: 88px;
+    padding-top:8px;
+    margin: 0 15px;
+}
+
+.fs .newsBox  .news .news-con.active{
+    display: block;
+}
+
+.fs .newsBox  .news .news-con li{
+    line-height: 22px;
+    max-width: 160px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #999;
+}
+
+.fs .newsBox  .news .news-con li a{
+    color: #666;
+}
+
+.fs .newsBox  .news .news-con li:hover a{
+    color: #e43f3b;
+}
+
+.fs .newsBox .service{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.fs .newsBox .service .service-img{
+    /*display: none;  !*方便一下*!*/
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 18px 11px 11px;
+    width: 168px;
+    height: 165px;
+    z-index: 2;
+}
+
+.fs .newsBox .service .service-img ul{
+    width: 168px;
+    height: 165px;
+}
+
+.fs .newsBox .service .service-img ul li{
+    position: relative;
+    float: left;
+    width: 42px;
+    height: 55px;
+    background: #fff;
+    text-align: center;
+}
+
+.fs .newsBox .service .service-img ul li a{
+    display: block;
+    position: relative;
+    padding-top: 6px;
+    transition: all .2s linear;
+    color: #bea68d;
+}
+
+.fs .newsBox .service .service-img ul li:hover a{
+    color: #c81623;
+}
+
+.fs .newsBox .service .service-img ul li a i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 4px auto 0;
+    font-size: 20px;
+}
+
+.fs .newsBox .service .service-img ul li a span{
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 2px solid #fff;
+    transition: color .15s ease;
+}
+
+.fs .newsBox .service .service-head{
+    width: 168px;
+    padding: 0 11px;
+
+}
+
+.fs .newsBox .service .service-desc .service-head a{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 6px 0;
+    background: none;
+    width: 42px;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    transition: color .15s ease;
+}
+
+.fs .newsBox .service .service-desc .service-head a:hover{
+    color: #e01121;
+    border-bottom-color: #e01121;
+}
+
+.fs .newsBox .service .service-desc{
+    display: none;
+}
+
+.fs .newsBox .service .service-desc .service-desc1{
+    position: relative;
+    padding: 0 15px;
+    width: 168px;
+    height: 180px;
+}
+.fs .newsBox .service .service-desc .service-desc1 .iconfont{
+    position: absolute;
+    right: 25px;
+    top: -3px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    z-index: 1;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .subTab1-head{
+    padding-top:12px;
+    width: 160px;
+    height: 21px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .subTab1-head a{
+    position: relative;
+    display: block;
+    float: left;
+    width: 53px;
+    line-height: 16px;
+    color: #666;
+    white-space: nowrap;
+    text-align: center;
+    height: 21px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .subTab1-head a:hover{
+    color: #e40015;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con{
+    display: none;
+    position: relative;
+    height: 136px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .number-top{
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .number-top label{
+    display: inline-block;
+    float: left;
+    width: 34px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .number-top input {
+    color: #c2c2c2;
+    float: left;
+    width: 124px;
+    height: 16px;
+    margin: 0;
+    line-height: 20px;
+    border: 1px solid #e7e7e7;
+    text-indent: .6em;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .number-bottom{
+    margin-top: 8px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .number-bottom label{
+    display: inline-block;
+    width: 34px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .number-bottom select{
+    height: 20px;
+    width: 126px;
+    border: 1px solid #e7e7e7;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con.con2 .number-bottom select{
+    width: 50px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .range{
+    padding-top: 5px;
+    color: #e40015;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .btn{
+    margin-top: 5px;
+    height: 20px;
+    width: 60px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con .btn input{
+    width: 60px;
+    height: 20px;
+    background: #e40015;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con p{
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con p a{
+    color: #5476db;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con p a:hover{
+    color: #e01222;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con2.active{
+    display: block;
+}
+
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con1.active,
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con2.active,
+.fs .newsBox  .service-desc .service-desc1 .subTab1 .con3.active{
+    display: block;
+}
+
+
+
+.fs .newsBox  .service-desc .eli{
+    position: relative;
+    display: none;
+}
+
+.fs .newsBox  .service-desc .eli.active{
+    display: block;
+}
+
+
+.fs .newsBox  .service-desc .eli .eli-img{
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 0;*/
+    width: 168px;
+    height: 174px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.fs .newsBox  .service-desc .eli a img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,248 @@
+
+/*京东直播+还没逛够*/
+.floorHd{
+    height: 65px;
+}
+.floorHd .floorHd_tit{
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 50px;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0 auto 20px;
+}
+.floorHd .floorHd_tit::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    display: block;
+    background: #222;
+    top: 19px;
+    left: 0;
+}
+.floorHd .floorHd_tit::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    display: block;
+    background: #222;
+    top: 19px;
+    right: 0;
+}
+.live_inner{
+    margin-bottom: 20px;
+}
+.live_inner .liveBox{
+    float: left;
+    width: 390px;
+    position: relative;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 15px;
+    margin-right: 10px;
+}
+.live_inner .liveBox h4,.live_inner .liveBox .liveInfo{
+    text-align: center;
+    width: 90%;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.live_inner .liveBox h4{
+    font-size: 24px;
+    bottom: 80px;
+    font-weight: normal;
+}
+.live_inner .liveBox .liveInfo{
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    bottom:40px;
+}
+.live_inner .liveBox:nth-last-child(1){
+    margin-right: 0;
+}
+.live_inner .liveBox .live_middle{
+    float: left;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    position: relative;
+}
+.live_inner .liveBox .live_middle:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.15);
+    transition: all .2s ease;
+}
+.live_inner .liveBox .live_middle:hover:after{
+    background: rgba(0,0,0,0);
+}
+.live_inner .liveBox .live_middle2:after{
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(0,0,0,.15);
+    transition: all .2s ease;
+}
+.live_inner .liveBox .live_middle2:hover:after{
+    background: rgba(0,0,0,0);
+}
+.live_inner .liveBox .liveImg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.live_inner .liveBox .live_middle .liveImg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.live_inner .liveBox .liveBtn{
+    background: url("../img/img7/live-btn.png") no-repeat;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin: -30px 0 0 -30px;
+    z-index: 2;
+    opacity: .8;
+}
+.live_inner .liveBox .live_middle .liveBtn{
+    width: 44px;
+    height: 44px;
+    margin: -22px 0 0 -22px;
+    background-size:contain;
+}
+.live_inner .liveBox .live_middle .liveInfo{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom:20px;
+    z-index: 2;
+    color: #fff;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.moreList{
+    margin:0 -5px;
+}
+.moreItem{
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 305px;
+    background: #fff;
+    margin: 0 5px 10px;
+}
+.moreItem .moreLink{
+    display: block;
+    width: 100%;
+}
+.moreItem .moreLink .moreImg{
+    width: 170px;
+    height: 170px;
+    margin: 30px auto 20px;
+    background: url("../img/img7/default.gif") no-repeat center center #EEE;
+
+}
+.moreItem .moreLink .moreImg img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.moreItem .moreLink .moreInfo{
+    padding: 0 20px;
+    font-size: 14px;
+}
+.moreItem .moreLink .moreText{
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+
+    color: #333;
+}
+.moreItem .moreLink .morePrice{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+.moreItem:hover .moreImg{
+    opacity: 0.8;
+}
+.moreItem .moreFind{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    opacity: 0;
+    transition: all ease-out 0.2s
+}
+.moreItem .moreFind .resemble{
+    display: block;
+    margin: 24px auto;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border-radius: 50%;
+    background: #333;
+    transform: scale(0);
+    transition: all .3s ease;
+}
+
+.moreItem:hover .moreFind{
+    opacity:0.7;
+}
+.moreItem:hover .moreText{
+    color: red;
+}
+.moreItem:hover .resemble{
+    transform: scale(1);
+}
+.moreItem .resemble:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.moreItemImg img{
+   width: 100%;
+    height: 100%;
+    display: none;
+}
+.moreItemImg:hover img{
+    opacity: 0.8;
+}
+
+
+
+

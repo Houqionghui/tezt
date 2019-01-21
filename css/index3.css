@@ -1,0 +1,316 @@
+body {
+    background-color: #f0f3ef;
+}
+
+.conter.main {
+    position: relative;
+    width: 1190px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.conter .box {
+    float: left;
+    width: 190px;
+    height: 275px;
+    background: #e83632;
+}
+
+.conter .box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.box a .box1 {
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.box a .box2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #f19999;
+    /*color: rgba(255, 255, 255, 0.8);*/
+    font-size: 20px;
+}
+
+.box a .box3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 46px;
+}
+
+.box a i {
+    position: absolute;
+    background: url("../img/sprite.seckill@2x.png") no-repeat;
+    background-position: -30.5px 0;
+    left: 86px;
+    top: 130px;
+    display: block;
+    width: 18px;
+    height: 33px;
+    background-size: 52.5px 40px;
+}
+
+.box a .boxTime {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.box a .boxTime span {
+    position: relative;
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    /*background: #2f3430 url(../img/xian.jpg) no-repeat center center;*/
+    background-color: black;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.box a:after{
+    position: absolute;
+    top: 216px;
+    left: 24px;
+    display: block;
+    content: '';
+    width: 140px;
+    background-color: red;
+    border:1px solid red;
+}
+
+
+
+.banner .swiper-container {
+    position: relative;
+    width: 800px;
+    height: 275px;
+    overflow: hidden;
+}
+
+.banner .swiper-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.banner .swiper-wrapper .swiper-slide {
+    width: 189px;
+    height: 275px;
+    padding: 0 5px;
+    float: left;
+    background-color: #fff;
+    border-right:1px solid #f0f0f0;
+}
+
+.warpp {
+    width: 800px;
+    float: left;
+
+}
+
+.banner {
+    height: 275px;
+    /*font-size:0;*/
+    position: relative;
+}
+
+.banner .productBox {
+    margin-bottom: 30px;
+
+}
+
+.banner li {
+    height: 275px;
+    width: 800px;
+    float: left;
+}
+
+.banner .productBox a {
+    display: block;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.banner .productBox a .picture{
+    padding-top: 20px;
+}
+
+.banner .productBox a img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+    opacity: 1;
+}
+
+.banner .productBox a img:hover {
+    opacity: .8;
+}
+
+.banner .productBox a p {
+
+    /*position: absolute;*/
+    /*top: 190px;*/
+    /*left: 0;*/
+    width: 160px;
+    padding: 0 15px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333333;
+    font-size: 13px;
+    margin: 20px auto 20px;
+}
+
+.banner .productBox a .mone1 {
+    float: left;
+    color: #FFFFFF;
+    width: 80px;
+    text-align: center;
+    border: 1px solid salmon;
+    background: #DB192A;
+    font-size: 14px;
+    margin-left: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.banner .productBox a .money2 {
+    float: left;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    text-align: center;
+    color: #b7bcb8;
+    font-size: 14px;
+    border: solid 1px salmon;
+    text-decoration: line-through;
+
+}
+
+.banner .arrow {
+    /*display: none;*/
+    position: absolute;
+    top: 50%;
+    /*left: 195px;*/
+    margin-top: -22.5px;
+    width: 20px;
+    height: 40px;
+    background: url("../img/pre.png") no-repeat;
+    opacity: 0.3;
+}
+
+.banner .arrow:hover {
+    opacity: 1;
+}
+
+.banner .arrow.arrowLeft {
+    left: 0;
+    background-position: -6px -3px;
+}
+
+.banner .arrow.arrowRight {
+    right: 0;
+    background-position: -52px 0;
+}
+
+/*imgI样式*/
+.imgI {
+    float: left;
+    width: 200px;
+    height: 260px;
+    padding-top: 8px;
+    padding-bottom:7px;
+    background-color: #fff;
+
+}
+
+.imgI .bannerBox {
+    position: relative;
+    margin: 0 auto;
+    width: 180px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.imgI .wappr {
+    display: block;
+    margin-bottom: 30px;
+    height: 260px;
+    width: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imgI .wappr .slide {
+    display: block;
+    float: left;
+    height:260px;
+    width: 180px;
+
+}
+
+.imgI .wappr a {
+    display: block;
+    width: 180px;
+    height: 260px;
+}
+
+.imgI a img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgI .focus {
+    position: absolute;
+    z-index: 999;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 4px;
+    height: 12px;
+    /*!*background: rgba(0, 0, 0, .5);*!*/
+    /*!*border-radius: 10px; !*让其为盒子高度的一半,这样把长方型的盒子修改为椭圆状*!*!*/
+    font-size: 0;
+}
+
+.conter .imgI .focus li {
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #c0c0c0;
+    width: 6px;
+    height: 6px;
+    margin: 4px;
+
+}
+
+.conter .imgI .focus li.active {
+    background: #DB192A;
+}
+
+
+

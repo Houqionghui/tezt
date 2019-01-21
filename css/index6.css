@@ -1,0 +1,411 @@
+.zBox {
+    font-size: 0;
+}
+
+ .zBox h2,.characterBox h2 {
+    font-size: 28px;
+    height: 65px;
+    line-height: 45px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.zBox h2 span,.characterBox h2 span {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #222;
+    margin-bottom: 9px;
+    margin-left: 21px;
+}
+
+.zBox h2 span:nth-of-type(1),.characterBox h2 span:nth-of-type(1) {
+    margin-right: 21px;
+}
+
+.zContent ul li {
+    float: left;
+    width: 390px;
+    height: 450px;
+    margin: 0 10px 30px 0;
+    background: #FFF;
+}
+
+.zContent ul li:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.zContent .title, .characterBox .wrapper .slide .title {
+    height: 52px;
+    padding: 0 20px;
+}
+
+.zContent .title a, .characterBox .wrapper .slide .title a {
+    display: block;
+    height: 44px;
+    margin-top: 8px;
+}
+
+.zContent .title a h3, .characterBox .wrapper .slide .title a h3 {
+    line-height: 44px;
+    float: left;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222;
+}
+
+.zContent .title a img, .characterBox .wrapper .slide .title a img {
+    float: left;
+    width: 23px;
+    height: 23px;
+    margin: 11px 0 0 4px;
+}
+
+.zContent .title a span, .characterBox .wrapper .slide .title a span {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    margin: 12px 0 0 10px;
+}
+
+.zContent .adver, .zContent .icon {
+    padding: 0 20px;
+}
+
+.zContent .adver a {
+    margin-right: 8px;
+}
+
+.zContent .adver a:last-child {
+    margin-right: 0;
+}
+
+.zContent .icon {
+    margin-top: 10px;
+    width: 348px;
+}
+
+.zContent .icon a {
+    width: 85px;
+    border: 1px solid #ebeaea;
+    float: left;
+}
+
+.zTwo a {
+    display: block;
+    padding: 0 20px;
+}
+
+.zContent ul .bgColor {
+    background: #f0f3ef;
+    position: relative;
+}
+
+.zContent .bgColor .blackBorder, .blackBorder2 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 340px;
+    height: 420px;
+    border: solid 5px #333;
+}
+
+.zContent .bgColor .zThree {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: #f0f3ef;
+}
+
+.zContent .bgColor .zThree a:nth-of-type(2n) {
+    margin-top: 20px;
+}
+
+.zContent .bgColor a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.zContent .bgColor .blackBorder2 {
+    left: 0;
+}
+
+.zFour {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    background: #f0f3ef;
+}
+
+.zFour a {
+    display: block;
+    /*width: 340px;*/
+    /*height: 200px;*/
+}
+
+.zFour a:nth-of-type(2n) {
+    margin-top: 20px;
+}
+
+.zContent li .zFive {
+    background: #f0f3ef;
+    width: 395px;
+    height: 450px;
+}
+
+.zContent li ul.zFive li.zFive1 {
+    width: 190px;
+    height: 220px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.zContent .zFive li.zFive1:nth-child(even) {
+    margin-right: 0;
+}
+
+.zContent .zFive li.zFive1:hover p {
+    transition: .5s;
+    color: #c81623;
+}
+
+.zFive li.zFive1 div {
+    width: 100%;
+    height: 100%;
+}
+
+.zFive li.zFive1 div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.zFive li.zFive1 div a img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 25px 35px;
+}
+
+.zFive li.zFive1 div a .subject {
+    width: 140px;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333;
+
+}
+
+.zFive li.zFive1 div a .money {
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    color: #e33333;
+    text-align: center;
+}
+
+.zContent li .zSix {
+    padding-left: 20px;
+}
+
+.zContent li .zSix a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.zContent .sOne {
+    width: 390px;
+    height: 380px;
+    margin-left: 20px;
+}
+
+.zContent .sOne .sOne1 {
+    width: 350px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.oil {
+    float: left;
+    margin-right: 10px;
+}
+
+.sTwo, .fashionBox {
+    width: 390px;
+    height: 450px;
+    padding: 20px 0 0 20px;
+}
+
+.sTwo a {
+    display: block;
+}
+
+.sTwo a img {
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 9px;
+}
+
+.sTwo a span {
+    float: left;
+    height: 43px;
+    line-height: 43px;
+    font-size: 18px;
+    color: #333;
+}
+
+.sTwo .sTwo1 {
+    margin: 20px 0;
+}
+
+.sTwo .sTwo2 img {
+    border: none;
+    margin-right: 25px;
+}
+
+.zContent .bgColor .zThree a {
+    display: block;
+}
+
+ .zBox img:hover,.characterBox img:hover {
+    opacity: .7;
+    transition: .5s;
+}
+
+ .zBox img,.characterBox img {
+    opacity: 1;
+    transition: .5s;
+}
+
+.zContent li div.fashionBox {
+    width: 390px;
+    height: 370px;
+    padding: 0 20px;
+}
+
+.zContent li div.fashionBox .fashionFour {
+    margin-top: 10px;
+}
+
+.characterBox {
+    height: 450px;
+}
+
+.characterBox .container {
+    position: relative;
+}
+
+.characterBox .container .wrapper {
+
+}
+
+.characterBox .container .wrapper .slide {
+    width: 1190px;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.characterBox .container .wrapper .slide .secondLevel {
+    width: 4760px;
+    position: absolute;
+    left: 0;
+}
+
+.container .wrapper .slide li {
+    float: left;
+    width: 390px;
+    height: 330px;
+    background: #FFF;
+    margin-right: 10px;
+}
+
+.container .wrapper .slide li:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.wrapper .slide li .characterpic {
+    width: 350px;
+    height: 250px;
+    margin: 0 auto 20px;
+}
+
+.characterBox .container .focus {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px;
+    height: 12px;
+    border-radius: 10px;
+    font-size: 0;
+}
+
+
+.characterBox .container .focus li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    border-radius: 50%;
+    /*background: #fdd9dd;*/
+    transition: background .2s ease;
+}
+
+.characterBox .container .focus li.active {
+    display: block;
+    background: #fdd9dd;
+}
+
+.characterBox .container .focus li.active:after {
+    border: 2px solid transparent; /*外层是边框内层是背景*/
+    background: #eb3436;
+}
+
+.characterBox .container .focus li:after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #b9beba;
+}
+
+.characterBox .container .arrow {
+    /*display: none;*/
+    position: absolute;
+    bottom: 40%;
+    background: url("../img/img6/tesetuijian/arrow.png") no-repeat;
+    width: 28px;
+    height: 45px;
+    opacity: .5;
+    transform: scale(0.7);
+}
+
+.characterBox .container .arrow:hover {
+    opacity: .2;
+}
+
+.characterBox .container .arrow.arrowLeft {
+    left: -4px;
+    background-position: 0 0;
+}
+
+.characterBox .container .arrow.arrowRight {
+    right: -4px;
+    background-position: -50px 0;
+}
